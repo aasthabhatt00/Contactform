@@ -7,14 +7,15 @@
 </head>
 <body>
     <div class="contact-container">
-        <form action="" class="contact-left">
+        <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
             <div class ="contact-left-title">
                 <h2>Get in touch</h2>
                 <hr>
             </div>
-            <input type="text" name="name" placeholder="Your Name" class="contact-inputes" required>
-            <input type="email" name="email" placeholder="Your Email" class="contact-inputes" required>
-            <textarea name="message" placeholder="Your Message" class="contact-inputes" required></textarea>
+            <input type="hidden" name="access_key" value="025ff321-6c09-4485-8a9b-107962e73f7a">
+            <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
+            <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
+            <textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea>
             <button type="submit">Submit <img src="assets/arrow_icon.png" alt=""> </button>
         </form>
         <div class="contact-right">
