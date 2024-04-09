@@ -5,7 +5,7 @@
 }
 body{
     font-family: 'Outfit';
-    background: linear-gradient(#ffdad5, #fff7f9);
+    background: linear-gradient(hsl(7, 100%, 92%), #fff7f9);
 }
 .contact-container{
     height: 100vh;
